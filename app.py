@@ -5,7 +5,7 @@ import numpy as np
 import PIL.Image
 
 model = load_model('weather_model.keras')
-class_names = ['cloudy', 'rainy', 'sunny', 'shine']  
+class_names = ['Cloudy', 'Rain', 'Shine', 'Sunrise']  
 
 st.title("Weather Classification")
 
